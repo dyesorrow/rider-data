@@ -1,0 +1,15 @@
+**/build
+**/bin
+**/.settings/*
+!**/.settings/org.eclipse.jdt.core.prefs
+**/gradle
+**/.gradle
+**/gradlew
+**/gradlew.bat
+**/out
+**/target
+**/.classpath
+**/.project
+**/.vertx
+
+data.db
