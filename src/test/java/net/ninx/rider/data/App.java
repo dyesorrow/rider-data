@@ -15,6 +15,7 @@ public class App {
         classes.add(StudentMapper.class);
         DB.init(App.class, classes, new SimpleDataSource("jdbc:sqlite:data.db", "SA", ""));
         DB.use().getConnection();
+        // DB.use().getConnection().setAutoCommit(false);
 
         StudentMapper mapper = DB.use().mapper(StudentMapper.class);
 
